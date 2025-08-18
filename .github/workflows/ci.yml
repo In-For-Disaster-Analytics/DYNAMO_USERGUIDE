@@ -2,7 +2,9 @@ name: ci
 on:
   push:
     branches:
+      - master 
       - main
+      - LIVE
 permissions:
   contents: write
 jobs:
@@ -21,8 +23,8 @@ jobs:
       - uses: actions/cache@v4
         with:
           key: mkdocs-material-${{ env.cache_id }}
-          path: .cache
+          path: ~/.cache 
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material mkdocs-jupyter mkdocs-awesome-pages-plugin
+      - run: pip install mkdocs-material 
       - run: mkdocs gh-deploy --force
