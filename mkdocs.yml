@@ -19,12 +19,11 @@ theme:
   palette:
     primary: teal
 
+extra_css:
+  - assets/versions.css
 
-# extra_css:
-#   - assets/versions.css
-
-# extra_javascript:
-#   - assets/versions.js
+extra_javascript:
+  - assets/versions.js
 
 markdown_extensions:
   - admonition
