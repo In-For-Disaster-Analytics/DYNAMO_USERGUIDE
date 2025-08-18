@@ -26,28 +26,56 @@ extra_css:
 extra_javascript:
   - assets/versions.js
 
-
-nav:
-  - Overview: index.md
-  - Capabilities:
-    - Modeling capabilities: modeling.md
-    - Indicators: indicators.md
-    - Interventions: interventions.md
-  - User guide: 
-    - User Interface Walkthrough: walkthrough.md
-  - Services:
-    - Model Catalog: modelcatalog.md
-    - Data Catalog: datacatalog.md
-  - Administrator Guide:
-    - admin-guide/index.md
-    - admin-guide/installation.md 
-    #- admin-guide/configuration.md
-
-
-
 markdown_extensions:
-  # - codehilite
   - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - tables
   - toc:
       toc_depth : "1-1"
-      permalink: true
+      permalink: true  
+
+plugins:
+    # - mkdocs-jupyter:
+    #       ignore_h1_titles: True          
+    #       include_source: True
+    #       include_requirejs: true
+  - awesome-pages:
+      # filename: .index
+      collapse_single_pages: true
+      strict: false
+      order: asc
+      sort_type: natural
+  - privacy:
+      assets: false
+      external_links_attr_map:
+        target: _blank
+  - search
