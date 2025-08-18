@@ -8,7 +8,7 @@ site_description:  >-
 # Repository
 repo_name: In-For-Disaster-Analytics/DYNAMO_USERGUIDE
 repo_url: https://github.com/In-For-Disaster-Analytics/DYNAMO_USERGUIDE
-edit_uri: edit/main/docs/
+# edit_uri: edit/main/docs/
 
 
 # Configuration
@@ -20,11 +20,11 @@ theme:
     primary: teal
 
 
-extra_css:
-  - assets/versions.css
+# extra_css:
+#   - assets/versions.css
 
-extra_javascript:
-  - assets/versions.js
+# extra_javascript:
+#   - assets/versions.js
 
 markdown_extensions:
   - admonition
@@ -60,7 +60,6 @@ markdown_extensions:
   - pymdownx.tilde
   - tables
   - toc:
-      toc_depth : "1-1"
       permalink: true  
 
 plugins:
@@ -79,3 +78,19 @@ plugins:
       external_links_attr_map:
         target: _blank
   - search
+
+nav:
+  - Overview: index.md
+  - Capabilities:
+      - Modeling capabilities: modeling.md
+      - Indicators: indicators.md
+      - Interventions: interventions.md
+  - User guide: 
+      - User Interface Walkthrough: walkthrough.md
+  - Services:
+      - Model Catalog: modelcatalog.md
+      - Data Catalog: datacatalog.md
+  - Administrator Guide:
+      - admin-guide/index.md
+      - admin-guide/installation.md 
+      #- admin-guide/configuration.md
