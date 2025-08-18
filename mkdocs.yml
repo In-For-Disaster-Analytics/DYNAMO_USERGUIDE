@@ -1,10 +1,10 @@
-site_name: MINT
+site_name: DYNAMO
 extra_css:
 - assets/versions.css
 extra_javascript:
 - assets/versions.js
-repo_url: https://github.com/mintproject/MINT_USERGUIDE
-edit_uri: edit/master/docs/
+repo_url: https://github.com/In-For-Disaster-Analytics/DYNAMO_USERGUIDE
+edit_uri: edit/main/docs/
 nav:
   - Overview: index.md
   - Capabilities:
@@ -29,7 +29,7 @@ theme:
 
 
 markdown_extensions:
-- codehilite
+# - codehilite
 - admonition
 - toc:
     toc_depth : "1-1"
