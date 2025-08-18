@@ -1,10 +1,32 @@
+# Project Information
 site_name: DYNAMO
-extra_css:
-- assets/versions.css
-extra_javascript:
-- assets/versions.js
+site_url: https://in-for-disaster-analytics.github.io/DYNAMO_USERGUIDE/
+site_author: UT Austin DSO Team
+site_description:  >-
+  Website for Dyanmo UI documentation
+
+# Repository
+repo_name: In-For-Disaster-Analytics/DYNAMO_USERGUIDE
 repo_url: https://github.com/In-For-Disaster-Analytics/DYNAMO_USERGUIDE
 edit_uri: edit/main/docs/
+
+
+# Configuration
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/favicon.ico
+  palette:
+    primary: teal
+
+
+extra_css:
+  - assets/versions.css
+
+extra_javascript:
+  - assets/versions.js
+
+
 nav:
   - Overview: index.md
   - Capabilities:
@@ -20,17 +42,12 @@ nav:
     - admin-guide/index.md
     - admin-guide/installation.md 
     #- admin-guide/configuration.md
-theme:
-  name: material
-  logo: images/logo.png
-  favicon: images/favicon.ico
-  palette:
-    primary: teal
+
 
 
 markdown_extensions:
-# - codehilite
-- admonition
-- toc:
-    toc_depth : "1-1"
-    permalink: true
+  # - codehilite
+  - admonition
+  - toc:
+      toc_depth : "1-1"
+      permalink: true
