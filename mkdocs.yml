@@ -29,8 +29,8 @@ theme:
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.path
-    - navigation.tabs    
-    - navigation.tabs.sticky
+    # - navigation.tabs    
+    # - navigation.tabs.sticky
     - navigation.top
     - toc.follow
   palette: 
@@ -101,12 +101,12 @@ plugins:
     #       ignore_h1_titles: True          
     #       include_source: True
     #       include_requirejs: true
-  - awesome-pages:
-      # filename: .index
-      collapse_single_pages: true
-      strict: false
-      order: asc
-      sort_type: natural
+  # - awesome-pages:
+  #     # filename: .index
+  #     collapse_single_pages: true
+  #     strict: false
+  #     order: asc
+  #     sort_type: natural
   - privacy:
       assets: false
       external_links_attr_map:
