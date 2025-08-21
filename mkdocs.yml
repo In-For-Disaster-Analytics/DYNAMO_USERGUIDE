@@ -1,6 +1,6 @@
 # Project Information
 site_name: DYNAMO
-site_url: https://in-for-disaster-analytics.github.io/DYNAMO_USERGUIDE/
+site_url: https://in-for-disaster-analytics.github.io/dynamo_userguide/
 site_author: UT Austin DSO Team
 site_description:  >-
   Website for Dyanmo UI documentation
@@ -119,12 +119,41 @@ nav:
       - Modeling capabilities: modeling.md
       - Indicators: indicators.md
       - Interventions: interventions.md
-  - User guide: 
+  - User guide:
       - User Interface Walkthrough: walkthrough.md
+      - Explore Areas: walkthrough/01-exploring-area.md
+      - Prepare Models:
+          - Overview: walkthrough/02-preparing-models/index.md
+          - Browse Models: walkthrough/02-preparing-models/browse-models.md
+          - Compare Models: walkthrough/02-preparing-models/compare-models.md
+          - Add Models: walkthrough/02-preparing-models/add-models.md
+          - Edit Models: walkthrough/02-preparing-models/edit-models.md
+          - Configure Models:
+              - Overview: walkthrough/02-preparing-models/configure/index.md
+              - Getting Started: walkthrough/02-preparing-models/configure/getting-started.md
+              - Configurations: walkthrough/02-preparing-models/configure/configurations.md
+              - Creating Configurations: walkthrough/02-preparing-models/configure/creating-configurations.md
+              - Creating Setups: walkthrough/02-preparing-models/configure/creating-setups.md
+              - Making Executable: walkthrough/02-preparing-models/configure/making-executable.md
+      - Explore Data: walkthrough/03-exploring-data.md
+      - Prepare Data:
+          - Overview: walkthrough/walkthrough/index.md
+          - MINT Data Catalog: walkthrough/walkthrough/03-1-preparing-data-mint-catalog.md
+          - CKAN: walkthrough/walkthrough/03-1-preparing-data-ckan.md
+      - Use Models: walkthrough/04-modeling.md
+      - Prepare Reports: walkthrough/05-reporting.md
   - Services:
       - Model Catalog: modelcatalog.md
       - Data Catalog: datacatalog.md
   - Administrator Guide:
       - admin-guide/index.md
-      - admin-guide/installation.md 
-      #- admin-guide/configuration.md
+      - admin-guide/installation.md
+      - admin-guide/authentication.md
+      - Catalog configuration:
+          - Model Catalog: admin-guide/catalog-configuration/model-catalog-configuration.md
+          - Solution Catalog: admin-guide/catalog-configuration/solution-catalog-configuration.md
+          - Region configuration: admin-guide/catalog-configuration/region-configuration.md
+      - CKAN configuration: admin-guide/ckan-configuration.md
+      - Execution configuration:
+          - Kubernetes: admin-guide/execution-configuration/execution-configuration-kubernetes.md
+          - Tapis: admin-guide/execution-configuration/execution-configuration-tapis.md
