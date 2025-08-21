@@ -1,6 +1,6 @@
 # DYNAMO QuickStart User Guide
 
-<img src="figures/dynamo-logo-vertical.png" width="60">
+<img src="figures/circles.svg" width="60">
 
 ## Overview 
 DYNAMO assists an analyst to easily use sophisticated simulation models and data in order to explore the role of weather and climate in water on food availability in select regions of the world. For example, an analyst can use DYNAMO to investigate the expected crop yields given different rainfall predictions through its effect on flooding and drought. DYNAMO’s simulation models are quantitative and contain extensive subject matter knowledge. For example, a hydrology model contains physical laws that describe how water moves through a river basin, and uses data about the elevation of the terrain and the soil types to determine how
