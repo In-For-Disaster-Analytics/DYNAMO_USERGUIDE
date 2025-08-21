@@ -11,7 +11,7 @@ Different analysts may have different expertise and run different types of model
 !!! hint "Quick links"
     * DYNAMO Portal: http://mint.tacc.utexas.edu/
 
-## Capabilities of MINT
+## Capabilities of DYNAMO
 To enable these kinds of explorations, DYNAMO contains a range of hydrologic, agricultural, and economic
 models as well as a wealth of regional-level data needed to run those models.
 
