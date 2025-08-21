@@ -1,4 +1,4 @@
-# MINT User Interface Walkthrough
+# DYNAMO User Interface Walkthrough
 
 ## Log in and region overview
 

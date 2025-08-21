@@ -1,6 +1,6 @@
 # Configure Models
 
-The configuration system in MINT allows you to define how models should run with specific parameters and file requirements. This section explains how to set up and manage model configurations and their setups.
+The configuration system in DYNAMO allows you to define how models should run with specific parameters and file requirements. This section explains how to set up and manage model configurations and their setups.
 
 ## Configuration System Overview
 

@@ -1,6 +1,6 @@
-# A Quick Guide to the MINT Model Services
+# A Quick Guide to the DYNAMO Model Services
 ## Overview
-The MINT Model Services describe physical, environmental and social models (e.g., climate, hydrology, agriculture or economy models) in order to:
+The DYNAMO Model Services describe physical, environmental and social models (e.g., climate, hydrology, agriculture or economy models) in order to:
 
  * **Find relevant models**, according their name, keywords, variables or region where they can be executed.
  * **Execute models**, either by providing new input files and parameters or by choosing pre-selected models that have been setup by experts.  

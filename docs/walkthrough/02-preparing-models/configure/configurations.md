@@ -55,9 +55,8 @@ The ComponentLocation field is a critical requirement for model execution:
 - Must be a valid and accessible location
 - Typically points to a ZIP file containing the model code
 - Required for both ModelConfiguration and ModelConfigurationSetup
-- Example: `https://github.com/mintproject/MINT-WorkflowDomain/blob/main/WINGSWorkflowComponents/model-name/model-name.zip?raw=true`
 
-For MINT versions running on TACC systems, the ComponentLocation should point to a Tapis Application. Tapis Applications are containerized applications that can be executed on TACC clusters. For more information about creating and managing Tapis Applications, refer to the [cookbook-docker-template](https://github.com/In-For-Disaster-Analytics/cookbook-docker-template) documentation.
+For DYNAMO versions running on TACC systems, the ComponentLocation should point to a Tapis Application. Tapis Applications are containerized applications that can be executed on TACC clusters. For more information about creating and managing Tapis Applications, refer to the [cookbook-docker-template](https://github.com/In-For-Disaster-Analytics/cookbook-docker-template) documentation.
 
 ## Next Steps
 

@@ -1,6 +1,6 @@
 # Preparing Models
 
-In the **prepare models** section, you can explore the MINT model catalog using the browse and compare capabilities.
+In the **prepare models** section, you can explore the DYNAMO model catalog using the browse and compare capabilities.
 You can also add and edit your own models and configure them to work for specific regions and parameters.
 
 ## Main Features
