@@ -1,39 +1,39 @@
-# MINT QuickStart User Guide
+# DYNAMO QuickStart User Guide
 
-<img src="figures/mint-logo-vertical.png" width="60">
+<img src="figures/dynamo-logo-vertical.png" width="60">
 
 ## Overview 
-MINT assists an analyst to easily use sophisticated simulation models and data in order to explore the role of weather and climate in water on food availability in select regions of the world. For example, an analyst can use MINT to investigate the expected crop yields given different rainfall predictions through its effect on flooding and drought. MINT’s simulation models are quantitative and contain extensive subject matter knowledge. For example, a hydrology model contains physical laws that describe how water moves through a river basin, and uses data about the elevation of the terrain and the soil types to determine how
+DYNAMO assists an analyst to easily use sophisticated simulation models and data in order to explore the role of weather and climate in water on food availability in select regions of the world. For example, an analyst can use DYNAMO to investigate the expected crop yields given different rainfall predictions through its effect on flooding and drought. DYNAMO’s simulation models are quantitative and contain extensive subject matter knowledge. For example, a hydrology model contains physical laws that describe how water moves through a river basin, and uses data about the elevation of the terrain and the soil types to determine how
 much water is absorbed in the ground and how the water flows over a land surface.
 
-Different analysts may have different expertise and run different types of models. Each analyst is given a separate account in MINT, and their activities noted with their user name. All analysts can see the same information in their interface, so when one completes a task all the results are accessible to all the analysts. An analyst can also use MINT to investigate possible interventions. For example, changing planting windows to an earlier time might increase crop production, which can be analyzed using an agriculture model. Another possible intervention to increase crop yield is the use of fertilizer subsidies, which can be studied by using an economic model.
+Different analysts may have different expertise and run different types of models. Each analyst is given a separate account in DYNAMO, and their activities noted with their user name. All analysts can see the same information in their interface, so when one completes a task all the results are accessible to all the analysts. An analyst can also use DYNAMO to investigate possible interventions. For example, changing planting windows to an earlier time might increase crop production, which can be analyzed using an agriculture model. Another possible intervention to increase crop yield is the use of fertilizer subsidies, which can be studied by using an economic model.
 
 !!! hint "Quick links"
-    * MINT Portal: https://mint.isi.edu/
+    * DYNAMO Portal: http://mint.tacc.utexas.edu/
 
 ## Capabilities of MINT
-To enable these kinds of explorations, MINT contains a range of hydrologic, agricultural, and economic
+To enable these kinds of explorations, DYNAMO contains a range of hydrologic, agricultural, and economic
 models as well as a wealth of regional-level data needed to run those models.
 
-After selecting a region of the world, the MINT main interface guides an analyst through a series of
+After selecting a region of the world, the DYNAMO main interface guides an analyst through a series of
 tasks:
 
-![Tasks od MINT](figures/tasks.png "MINT Tasks")*Fig. 1: Tasks available in MINT.*
+![Tasks of DYNAMO](figures/tasks.png "DYNAMO Tasks")*Fig. 1: Tasks available in DYNAMO.*
 
-Identify geographical areas for modeling. MINT shows pre-defined areas such as river basins
+Identify geographical areas for modeling. DYNAMO shows pre-defined areas such as river basins
 for hydrology modeling, cropland areas for agriculture modeling, and administrative regions for
 economic modeling.
 
- * **Browse and understand the models available**. A user can browse MINT’s Model Catalog to see the models available, their characteristics, their data needs, the processes they represent along with the variables involved in those processes, and the results they produce. The models in MINT have been customized to the pre-defined geographical areas.
- * **Browse the datasets available**. A user can browse the MINT’s Data Catalog to see all the datasets available. MINT is pre-populated with datasets relevant to modeling in the pre-defined regions. MINT highlights special datasets that may be of particular interest, such as high-quality datasets, necessary for the modeling tasks as well as novel datasets extracted from remote sensing data through machine learning techniques. These special datasets allow modeling experts to prepare and customize models for a region, so they have higher accuracy.
- * **Use models to run simulations that help answer questions of interest**. MINT guides an analyst through necessary steps to select and setup a model thread to run by offering sensible choices based
+ * **Browse and understand the models available**. A user can browse DYNAMO’s Model Catalog to see the models available, their characteristics, their data needs, the processes they represent along with the variables involved in those processes, and the results they produce. The models in DYNAMO have been customized to the pre-defined geographical areas.
+ * **Browse the datasets available**. A user can browse the DYNAMO’s Data Catalog to see all the datasets available. DYNAMO is pre-populated with datasets relevant to modeling in the pre-defined regions. DYNAMO highlights special datasets that may be of particular interest, such as high-quality datasets, necessary for the modeling tasks as well as novel datasets extracted from remote sensing data through machine learning techniques. These special datasets allow modeling experts to prepare and customize models for a region, so they have higher accuracy.
+ * **Use models to run simulations that help answer questions of interest**. DYNAMO guides an analyst through necessary steps to select and setup a model thread to run by offering sensible choices based
 on the analyst’s previous selections and information about the models and data in the Model and Data Catalog. The next section provides more information on this topic.
  * **Visualize results of model runs through interactive dashboards**. Once models are run, analysts can visualize the results and include these visualizations as well as their provenance details into dynamic interactive reports.
  * **Collaborate with other users with different expertise**. Analysts can share their modeling results with others, request results from others, and discuss how to coordinate modeling tasks for consistency through a message board.
 
-## Formulating Modeling Problems and Modeling Tasks in MINT
+## Formulating Modeling Problems and Modeling Tasks in DYNAMO
 
-![Problem statements](figures/problem.png "MINT Tasks")*Fig. 2: Problem statements in MINT.*
+![Problem statements](figures/problem.png "DYNAMO Tasks")*Fig. 2: Problem statements in DYNAMO.*
 
 Analysts frame their problem into problem statements that establish the guiding context and its
 associated time frame to reflect the planning horizon or time period of interest. For instance, a problem
@@ -49,24 +49,24 @@ that the time frame of the tasks does not necessarily reflect that of the proble
 example, flooding is relevant to both the planting time and growing season of an agriculture model which
 would place the start of the simulation earlier than the problem’s time frame.
 
-![Problem statements](figures/tasks2.png "MINT Tasks")*Fig. 3: Problem statements in MINT.*
+![Problem statements](figures/tasks2.png "DYNAMO Tasks")*Fig. 3: Problem statements in DYNAMO.*
 
-![Task form](figures/task_form.png "MINT Tasks")*Fig. 4: Task form details.*
+![Task form](figures/task_form.png "DYNAMO Tasks")*Fig. 4: Task form details.*
 
 Analysts may want to explore indicators values under different initial conditions. These are expressed
 as adjustable parameters and input variables of models. For instance, an analyst can explore different weed
 management strategies on crop production by specifying different values for adjustable parameter that sets
 the crop to weeds ratio (or range thereof) in an agriculture model.
 
-Note that problem statements and task statements are not processed by MINT, it is simply a starting
+Note that problem statements and task statements are not processed by DYNAMO, it is simply a starting
 point for an analysis. An analyst may create several problem statements, each leading to different analyses.
-In contrast, MINT understands the indicators and modeling variables of modeling tasks, and uses them to
+In contrast, DYNAMO understands the indicators and modeling variables of modeling tasks, and uses them to
 guide analysts in finding and setting up appropriate models.
 Interventions reflect human actions that can change the course of a system’s behavior. They can be
 explored through the settings of adjustable parameters and input variables. For example, if an agency
 chooses to establish a fertilizer subsidy to incentivize farmers to plant a particular crop, an analyst can
 explore these interventions by adjusting a model’s parameter for fertilizer prices. There is documentation
-about this in the MINT Model Catalog, and in the Task editor when the adjustable variable chosen has an
+about this in the DYNAMO Model Catalog, and in the Task editor when the adjustable variable chosen has an
 associated intervention.
 
 A modeling task can be accomplished through several modeling threads. Separate modeling threads
@@ -75,30 +75,30 @@ production index may have two modeling threads, each using a different agricultu
 threads can be created to explore different initial assumptions, or to consider different indices. Each
 modeling thread is independent of others.
 
-## Using Models in MINT
+## Using Models in DYNAMO
 
-MINT helps analysts to use models to accomplish the modeling tasks through several steps:
+DYNAMO helps analysts to use models to accomplish the modeling tasks through several steps:
 
-1. **Select variables**: MINT shows analysts the possible indicators that can be generated based on the
+1. **Select variables**: DYNAMO shows analysts the possible indicators that can be generated based on the
 models available. The analyst can also select input variables and parameters that they wish to adjust.
-2. **Select models**: MINT then shows analysts the models available that generate the indicators of
+2. **Select models**: DYNAMO then shows analysts the models available that generate the indicators of
 interest, and that have the adjustable parameters and intervention inputs desired by the analyst.
 Analysts can compare models and select one or more models to run.
-3. **Select datasets**: MINT then shows analysts the datasets that are available as inputs to the models
+3. **Select datasets**: DYNAMO then shows analysts the datasets that are available as inputs to the models
 selected. Analysts can compare datasets and select one or more datasets to run.
-4. **Set up models**: MINT shows analysts the adjustable parameters that are input to the model, and
+4. **Set up models**: DYNAMO shows analysts the adjustable parameters that are input to the model, and
 the possible values that they can take. Analysts can select multiple parameter values which result
 in different runs.
 5. **Monitor the status of model runs**: This allows analysts to track model executions that take a long
 time, and to be informed of execution failures.
 6. **View results of model executions**: Analysts can download and save any results from models.
-7. **Visualize model results**: MINT generates interactive visualizations that allow analysts to
+7. **Visualize model results**: DYNAMO generates interactive visualizations that allow analysts to
 understand the model results.
 
 When a step has been completed, it is shown in a darker color. Users can revisit an earlier step, and if
 the choices are changed for that step then the subsequent steps are canceled and need to be redone.
 
-Each of these steps is done in a separate Web page in MINT, and has its own URL. This is very
+Each of these steps is done in a separate Web page in DYNAMO, and has its own URL. This is very
 convenient to point other analysts to a particular selection or result by sharing its URL through the message
 board.
 
@@ -143,7 +143,7 @@ data.
 
 **Q4**: Can I point another analyst to a result from my own work?
 
-**A4**: Yes. In the message board, any message may include the URL of any page in the MINT interface. Simply cut and paste the URL of that page that contains the result or step that you want another analyst to see.
+**A4**: Yes. In the message board, any message may include the URL of any page in the DYNAMO interface. Simply cut and paste the URL of that page that contains the result or step that you want another analyst to see.
 
 **Q5**: Can I run more than one model within a single modeling thread?
 
@@ -151,17 +151,17 @@ data.
 example, modeling effective crop production using an economic model requires understanding how a crop
 responds to changes in fertilizer rates using an agriculture model. In some cases, each model may be run
 by a different analyst, but the analysts may need to coordinate the parameters and input variables for both
-models to be consistent. In MINT, each model would be part of a different modeling task or thread, and the
+models to be consistent. In DYNAMO, each model would be part of a different modeling task or thread, and the
 analysts would need to communicate with one another through the message board. For example, an analyst
 can start a modeling thread and send the URL of that thread via the message board to another analyst asking
 them to do the modeling. The second analyst can share the results through a URL in a message.
 
-**Q6**: Do I need to upload data to MINT?
+**Q6**: Do I need to upload data to DYNAMO?
 
-**A6**: No. MINT already contains many relevant datasets for the regions of interest. In the future, MINT
+**A6**: No. DYNAMO already contains many relevant datasets for the regions of interest. In the future, DYNAMO
 will include capabilities for data specialists to add new data sources.
 
-**Q7**: Do I need to add new models in MINT?
+**Q7**: Do I need to add new models in DYNAMO?
 
-**A7**: No. MINT is pre-populated with models for the regions of interest. In the future, MINT will include
+**A7**: No. DYNAMO is pre-populated with models for the regions of interest. In the future, DYNAMO will include
 capabilities for modeling experts to add new models.

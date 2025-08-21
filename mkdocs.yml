@@ -138,7 +138,7 @@ nav:
       - Explore Data: walkthrough/03-exploring-data.md
       - Prepare Data:
           - Overview: walkthrough/walkthrough/index.md
-          - MINT Data Catalog: walkthrough/walkthrough/03-1-preparing-data-mint-catalog.md
+          - DYNAMO Data Catalog: walkthrough/walkthrough/03-1-preparing-data-dynamo-catalog.md
           - CKAN: walkthrough/walkthrough/03-1-preparing-data-ckan.md
       - Use Models: walkthrough/04-modeling.md
       - Prepare Reports: walkthrough/05-reporting.md
