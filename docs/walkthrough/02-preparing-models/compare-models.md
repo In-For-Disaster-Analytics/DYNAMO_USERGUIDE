@@ -5,7 +5,7 @@ To compare models, go to the **prepare models** section and click on _compare mo
 
 ## Model Comparison Interface
 
-A list of all models, versions, configurations, and setups of the MINT model catalog will be shown on the left.
+A list of all models, versions, configurations, and setups of the DYNAMO model catalog will be shown on the left.
 Clicking on their names will add them to the comparison table.
 ![comparison 1](../figures/walkthrough/40.png "comparison 1")
 
