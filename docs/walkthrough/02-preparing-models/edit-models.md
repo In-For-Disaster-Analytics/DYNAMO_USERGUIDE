@@ -1,7 +1,7 @@
 # Edit Models
 
 Once a model has been created, you can edit it by going to the **prepare models** section and clicking on _edit models_:
-![](../figures/walkthrough/07c.png)
+![](../figures/walkthrough/07b.png)
 
 ## Edit Models Interface
 
