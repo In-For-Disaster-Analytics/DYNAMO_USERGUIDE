@@ -1,7 +1,10 @@
 # Add Models
 
-To add new models and versions to your catalog, go to the **prepare models** section and click on _add models_.
+To add new models and versions to your catalog, go to the **prepare models** section and click on _edit models_.
 ![Prepare models 3](../figures/walkthrough/07b.png "Prepare models 3")
+
+In this page, click on the _add new model_ button.
+![Add model](../figures/walkthrough/extra-1.png "Add model")
 
 ## Add Models Interface
 
