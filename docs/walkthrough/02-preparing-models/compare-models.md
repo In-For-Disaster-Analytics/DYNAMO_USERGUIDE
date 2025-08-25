@@ -1,6 +1,6 @@
 # Compare Models
 
-To compare models, go to the **prepare models** section and click on _compare models_.
+To compare models, go to the **Browse models** section and click on two or more models to compare. Models are added to the compare queue.
 ![Prepare models 2](../figures/walkthrough/07e.png "Prepare models 2")
 
 ## Model Comparison Interface

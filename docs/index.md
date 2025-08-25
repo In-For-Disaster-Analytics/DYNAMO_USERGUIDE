@@ -20,16 +20,19 @@ tasks:
 
 ![Tasks of DYNAMO](figures/tasks.png "DYNAMO Tasks")*Fig. 1: Tasks available in DYNAMO.*
 
-Identify geographical areas for modeling. DYNAMO shows pre-defined areas such as river basins
+ * **Explore Variables**. Users can explore all standard variables, their units, and representations. Standard variables are used to tag data and models, allowing users to filter the data each model needs.
+
+ * **Explore Areas**. Identify geographical areas for modeling. DYNAMO shows pre-defined areas such as river basins
 for hydrology modeling, cropland areas for agriculture modeling, and administrative regions for
 economic modeling.
 
- * **Browse and understand the models available**. A user can browse DYNAMO’s Model Catalog to see the models available, their characteristics, their data needs, the processes they represent along with the variables involved in those processes, and the results they produce. The models in DYNAMO have been customized to the pre-defined geographical areas.
- * **Browse the datasets available**. A user can browse the DYNAMO’s Data Catalog to see all the datasets available. DYNAMO is pre-populated with datasets relevant to modeling in the pre-defined regions. DYNAMO highlights special datasets that may be of particular interest, such as high-quality datasets, necessary for the modeling tasks as well as novel datasets extracted from remote sensing data through machine learning techniques. These special datasets allow modeling experts to prepare and customize models for a region, so they have higher accuracy.
- * **Use models to run simulations that help answer questions of interest**. DYNAMO guides an analyst through necessary steps to select and setup a model thread to run by offering sensible choices based
+ * **Browse and prepare the models available**. A user can browse DYNAMO’s Model Catalog to see the models available, their characteristics, their data needs, the processes they represent along with the variables involved in those processes, and the results they produce. The models in DYNAMO have been customized to the pre-defined geographical areas. 
+ Users can create custom configurations to set up parameters, files, and regions, enabling constrained execution of models
+ * **Use models** to run simulations that help answer questions of interest. DYNAMO guides an analyst through necessary steps to select and setup a model thread to run by offering sensible choices based
 on the analyst’s previous selections and information about the models and data in the Model and Data Catalog. The next section provides more information on this topic.
- * **Visualize results of model runs through interactive dashboards**. Once models are run, analysts can visualize the results and include these visualizations as well as their provenance details into dynamic interactive reports.
+ * **Visualize results of model runs**. Once models are run, analysts can visualize the results and include these visualizations as well as their provenance details into reports.
  * **Collaborate with other users with different expertise**. Analysts can share their modeling results with others, request results from others, and discuss how to coordinate modeling tasks for consistency through a message board.
+ * **Discover Data**. A user can browse the DYNAMO’s Data Catalog to see all the datasets available. DYNAMO is pre-populated with datasets relevant to modeling in the pre-defined regions. DYNAMO highlights special datasets that may be of particular interest, such as high-quality datasets, necessary for the modeling tasks as well as novel datasets extracted from remote sensing data through machine learning techniques. These special datasets allow modeling experts to prepare and customize models for a region, so they have higher accuracy. To know more check the CKAN section. 
 
 ## Formulating Modeling Problems and Modeling Tasks in DYNAMO
 
@@ -37,23 +40,18 @@ on the analyst’s previous selections and information about the models and data
 
 Analysts frame their problem into problem statements that establish the guiding context and its
 associated time frame to reflect the planning horizon or time period of interest. For instance, a problem
-statement can be formulated as “Explore interventions to increase agricultural productivity in South Sudan
-before the 2018 lean season”.
+statement can be stated as “Flood Edinburg Hurricane Beulah” to group diffent types of analysis.
 
 For each problem statement, analysts can formulate modeling tasks. Each modeling task is associated
-with an indicator relevant to the decision that want to inform or support. There are two types of indicators:
-indices and modeling variables. For example, the problem statement of food security in South Sudan
-described above, one modeling task can be framed as “Flooding effect on crop production during the
-growing season”, and a separate modeling task could be “Potential crop production without flooding”. Note
-that the time frame of the tasks does not necessarily reflect that of the problem statement. In the first
-example, flooding is relevant to both the planting time and growing season of an agriculture model which
-would place the start of the simulation earlier than the problem’s time frame.
+with an indicator relevant to the decision that want to inform or support. 
+For example, for problem statement described above, one modeling task can be framed as “Dataset Analysis - Sunday Speaker Audio”, and a separate modeling task could be a different day or a different task. Note
+that the time frame of the tasks does not necessarily reflect that of the problem statement. 
 
 ![Problem statements](figures/tasks2.png "DYNAMO Tasks")*Fig. 3: Problem statements in DYNAMO.*
 
 ![Task form](figures/task_form.png "DYNAMO Tasks")*Fig. 4: Task form details.*
 
-Analysts may want to explore indicators values under different initial conditions. These are expressed
+Analysts may want to explore different initial conditions. These are expressed
 as adjustable parameters and input variables of models. For instance, an analyst can explore different weed
 management strategies on crop production by specifying different values for adjustable parameter that sets
 the crop to weeds ratio (or range thereof) in an agriculture model.
@@ -158,8 +156,7 @@ them to do the modeling. The second analyst can share the results through a URL 
 
 **Q6**: Do I need to upload data to DYNAMO?
 
-**A6**: No. DYNAMO already contains many relevant datasets for the regions of interest. In the future, DYNAMO
-will include capabilities for data specialists to add new data sources.
+**A6**: This is not necessary. DYNAMO already contains many relevant datasets for the regions of interest. Check the CKAN section to learn more.
 
 **Q7**: Do I need to add new models in DYNAMO?
 
